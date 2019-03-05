@@ -1,0 +1,50 @@
+Calvin Skinner
+Feb 14 2019
+ECE 331 Notes
+
+Testing Problem 2 on HW3:
+	$ ls -d *
+	Makefile
+	.ko (Kernal Object)
+	$ sudo insmod systimer.ko
+	
+	Do not apt-get upgrade
+	Back up image with tar
+	
+	This allows the user to make Kernal modules
+
+ERE vs globs:
+	ERE:
+		- can be used to search in vi
+		- gernal Pattern matching
+		
+		Characters:
+			. -any single char
+			^ -start of line position
+			$ -End of line position
+			[] -Char class (a single in the class). [^ ] negate char class, to exclude from search. \d (escape). not necissary for single char.
+			\
+			| -alternation note use '[ab]' vs 'a|b'. 
+			() -
+			Modifiers: after the modified 'suffix'
+			* - 0 or more
+			+ - 1 or more
+			? - 0 or 1
+			{} - {m} exactly m times. {,m} up to including m times. {m,n} at least m but no more than n times.
+		
+		Note: grep prints entire lines where RE matches
+		EX: write an ERE that matches a line with only decimal numbers ->
+			grep '^[0-9]+$' 	(^ between beginning and end of line only contain [0-9]$)
+
+		EX: grep American Currency looking for -> '$42' - '$19.95' - '42 dollars' - 'USD' - 'blank owes $1,000.00'
+			grep '\$-?	[0-9]{0,3},?
+
+	glob:
+		Characters:
+			*
+			?
+			[]
+			^
+			~
+			{}
+			.

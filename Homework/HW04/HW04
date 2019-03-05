@@ -1,0 +1,36 @@
+Calvin Skinner
+Homework 4
+Due Feb 26, 2019
+
+1. Completed using only vi
+
+2. encode.h file written.
+
+3. Incomplete
+
+4.	a) RE: ([a-z]+.)[0-9]*0
+	Minimum match: a.0
+
+	b) RE: ^.$
+	Minimum match: .
+
+	c) RE: [a-z]*[0-9][a-z]*
+	Minimum match: 0
+
+	d) RE: ([^a-z]+)*
+	Minimum match: NULL or everything 
+
+5.	a) ^[0b]?[0-1]+
+	b) 0
+
+6.	a) ^[1-9]?+[02468]+
+	b) 0
+
+7.	a) [0-9]*[\.][0-9]+
+	b) .0
+
+8. Incomplete
+
+9. Incomplete
+
+10.

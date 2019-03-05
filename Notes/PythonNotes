@@ -1,0 +1,23 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Calvin Skinner
+	Feb 19, 2019
+	Notes on Python
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Python always starts with #! /directory/...
+Comments start with '#'
+
+import is similar to '#include' this is for importing modulesd like headers/libraries
+	EX: import fileinput
+
+ERE's in Python:
+	m-re.findall(r'[0-9]+', l)
+		     ^the r means raw string
+
+Encoder function: HW04 #2/3
+	-code sill be run as "cat x.txt | ./encoder 'l' | ./decoder
+	-Hint: use regular expressions in python to convert
+
+RE:
+	cents=r"..."	// this is how to create a regular expression variable
+

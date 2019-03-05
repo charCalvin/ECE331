@@ -1,0 +1,16 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Calvin Skinner
+	Feb 21, 2019
+	Notes	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Getting permitions: '$ chmod', '$ chown pi'
+	MODE	or	group
+	777
+	-"Good exam question"
+	- using sudo isn't always right if you are accessing something very often.
+
+Some C code: wcl2.c (word count)
+	- Doing something to files
+	- define Large file thing so you can open large files (#define _LARGEFILE64_SOURCE)
+	- common buf size 4kbytes (#define BUFF_SIZE 4096)

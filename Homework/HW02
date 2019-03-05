@@ -1,0 +1,21 @@
+Calvin Skinner
+Feb 12, 2019
+Homework 02
+
+1. Vim was used for the entire homework.
+
+2. $ mv xyz vader
+
+3. $ cp  vader galaxy
+
+4. $ ls /proc | grep -E '[0-9]' | nl
+
+6. $ alias grepe="grep -E"
+
+7. Open the file ".bashrc" with the command
+	$ sudo vim /home/pi/.bashrc
+   Find the section about aliases and add the following command to the file:
+   alias grepe="grep -E"
+   Save and exit the file and check by rebooting and running
+	$ alias
+   Done!
